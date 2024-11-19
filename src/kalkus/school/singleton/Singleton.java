@@ -13,4 +13,18 @@ public class Singleton {
         if (instance == null) instance = new Singleton();
         return instance;
     }
+
+    private int color;
+
+    private Singleton() {
+        color = 0x00ff00;
+    }
+
+    public int getColor() {
+        return color;
+    }
+
+    public void setColor(int color) {
+        this.color = color;
+    }
 }
