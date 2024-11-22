@@ -2,6 +2,8 @@ package kalkus.school.singleton;
 
 public class Singleton {
     private static Singleton instance;
+    public final String ANSI_RED = "\u001B[31m";
+    public final String ANSI_RESET = "\u001B[0m";
 
     /**
      * This static method returns the only instance of Singleton that there is, so by accident we don't create another
