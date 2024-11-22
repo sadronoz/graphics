@@ -10,9 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScanLine {
-    private PolygonRasterizer polygonRasterizer;
-    private Polygon polygon;
-    private Panel panel;
+    private final PolygonRasterizer polygonRasterizer;
+    private final Polygon polygon;
+    private final Panel panel;
 
     public ScanLine(Panel panel, PolygonRasterizer polygonRasterizer, Polygon polygon) {
         this.polygonRasterizer = polygonRasterizer;

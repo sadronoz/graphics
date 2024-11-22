@@ -9,7 +9,6 @@ import kalkus.school.objects.Point;
 import kalkus.school.objects.Polygon;
 import kalkus.school.rasterization.LineTrivial;
 import kalkus.school.rasterization.PolygonRasterizer;
-import kalkus.school.singleton.Singleton;
 import kalkus.school.tools.LineType;
 import kalkus.school.view.Panel;
 

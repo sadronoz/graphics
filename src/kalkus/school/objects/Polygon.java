@@ -1,6 +1,5 @@
 package kalkus.school.objects;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class Polygon extends ArrayList<Point> {

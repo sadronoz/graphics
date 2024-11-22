@@ -3,8 +3,6 @@ package kalkus.school.rasterization;
 import kalkus.school.objects.Point;
 import kalkus.school.objects.Polygon;
 
-import java.util.ArrayList;
-
 public class PolygonRasterizer {
     private final LineTrivial lineRasterizer;
 
